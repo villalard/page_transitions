@@ -80,11 +80,7 @@ const Contact = ({ data }) => {
                 </dl>
               </div>
             </div>
-            <form
-              action="#"
-              method="POST"
-              className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
-            >
+            <form className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
               <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                   <div>
@@ -174,10 +170,7 @@ const Contact = ({ data }) => {
                   </div>
                 </div>
                 <div className="mt-8 flex justify-end">
-                  <button
-                    type="submit"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  >
+                  <button className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                     Send message
                   </button>
                 </div>
